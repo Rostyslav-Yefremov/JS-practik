@@ -46,5 +46,40 @@ result = arr.map((obj) => {
     
 }).sort((min, max) => min.age - max.age)
     
-
 console.log("4.1", result)
+
+let result = arr.filter(
+    scientist => 1400 <= scientist.born && scientist.born >= 1699,
+);
+console.log('5', result);
+result = arr.sort((a, b) => a.born - b.born);
+result = result[result.length - 1];
+console.log('6', result);
+result = arr.sort((a, b) => b.born - a.born)[0];
+console.log('6.1', result);
+result = arr.find(
+    ({ name, surname }) => `${name} ${surname}` === 'Albert Einstein',
+).born;
+console.log('7', result);
+result = arr.reduce((acc, { name, surname, born }) => {
+    if (`${name} ${surname}` === 'Albert Einstein') {
+        acc = born;
+    }
+    return acc;
+}, 0);
+console.log('7.1', result);
+
+result = arr.filter(({ surname }) => surname[0] === "C");
+console.log('8', result);
+
+result = arr.filter(({ name }) => name[0] !== "A");
+console.log('9', result);
+
+result = arr.sort((a, b) => b.born - a.born).filter((obj, index, array) => obj === array[0] || obj === array[array.length - 1]);
+console.log('10', result);
+
+result = arr.filter(({ name, surname }) => name[0] === surname[0]);
+console.log('11', result);
+
+result = arr.every(({ dead }) => dead >= 1800 && dead < 1900);
+console.log('12', result);
