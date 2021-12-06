@@ -98,7 +98,7 @@
 //     console.log('Числа погнали', numbers[i]);
 
 //     if (numbers[i] %2 === 0) {
-//         console.log(`Ебутся коты, Ростик, ты вывел чётное число тут ${numbers[i]}`);
+//         console.log(`Ростик, ты вывел чётное число тут ${numbers[i]}`);
 //         total += numbers[i];
 //     }
 // }
@@ -109,7 +109,7 @@
 //     // console.log('Числа погнали', number);
 
 //     if (number %2 === 0) {
-//         console.log(`Ебутся коты, Ростик, ты вывел чётное число тут ${number}`);
+//         console.log(`Ростик, ты вывел чётное число тут ${number}`);
 //         total += number;
 //     } else {
 //         console.log(`Оооооо, а тут ты вывел НЕчётное число ${number}`);
@@ -128,20 +128,6 @@
 
 
 
-
-
-// function ocheretyanKredo(a, b, c) {
-//   console.log(`Олег любит трогать большой ${a + b + c}`);
-// }
-
-
-
-
-// console.log('До вызова')
-
-// ocheretyanKredo('Х', 'У', 'Й😉');
-// ocheretyanKredo(', ну прям как Биг-Бен', ' ХУЙ', '😉');
-// ocheretyanKredo('и к тому же, очень ', 'чёрный', ' ХУЙ🍆');
 
 
 // console.log('После вызова')
@@ -487,3 +473,129 @@
 //   return false;
 //   // Change code above this line
 // }
+
+
+// const sumNumbers = function (x, y, ...arr) {
+//   // console.log(x, y);
+//   console.log(arr);
+
+// }
+
+// sumNumbers(82, 45, 2)
+// // sumNumbers(3, 35)
+// // sumNumbers(13, 7, 24,357,23,4)
+// // sumNumbers(32, 15, 58, 44,32,35,5,8)
+
+//   console.log('Вот что ты тут наделал');
+
+// const user = {
+//   name: "Jacques Gluke",
+//   tag: "jgluke",
+//   location: {
+//     country: "Jamaica",
+//     city: "Ocho Rios",
+//   },
+//   hobbies: ["swiming", "music", "sci-fi"],
+// };
+
+// const location = user.location;
+// console.log(location); // Объект location
+
+// const country = user.hobbies.length;
+// console.log(country); // 'Jamaica'
+
+// user.location.city = 'Paris';
+// user.name = 'Jack';
+// console.log(user)
+// user.hobbies.push('Haha')
+// console.log(user.hobbies)
+
+
+// Привет Дорогие и Любимые. Ловите еще интересную задачку для практики Обработать массив,
+// const arr = [“BEST”, “the”, “foo”, “is”,  “JS” ]  развернуть массив,
+// вырезать foo, перевести его в строку разделенную пробелами.
+// Всех обнимаю:воздушный_поцелуй:
+
+// const arr = ['BEST', 'the', 'foo', 'is', 'JS'];
+
+// let newArrayString = arr.splice(2, 1).reverse().join(' ');
+
+// for (const ar of arr) {
+//   console.log(ar)
+// arr.reverse().join('--');
+//   console.log(ar)
+  
+// }
+// console.log(newArrayString);
+// // console.log(arr.join('--'));
+
+// const arr = ["BEST", "the", "foo", "is", "JS"];
+// console.log(...arr);
+// for (let i = 0; i <= arr.length; i -= 1) {
+//   console.log(i)
+//   if (arr[i] === "foo") {
+//     arr.splice(i, 1);
+//   }
+// }
+// console.log(arr.reverse().join(" "));
+
+// const arr = ["BEST", "the", "foo", "is", "JS"];
+// const indexFoo = arr.reverse().indexOf('foo');
+// arr.splice(indexFoo, 1);
+// const str = arr.join(" ")
+// console.log(str);
+
+
+// console.log('5' + - + - - + - -  + + - + - + - + - - - '2');
+
+
+// function multiply(a, b){
+//   return  a * b;
+// }
+
+// multiply(2, 2);
+
+// // ✅ Логически и синтаксически сгруппированные сущности
+// const bookShelf = {
+//   books: ["The Last Kingdom", "Dream Guardian"],
+//   // Это метод объекта
+//   getBooks() {
+//     console.log("Этот метод будет возвращать все книги - свойство books");
+//   },
+//   // Это метод объекта
+//   addBook(bookName) {
+//     console.log("Этот метод будет добавлять новую книгу в свойство books");
+//   },
+// };
+
+// // Вызовы методов
+// bookShelf.getBooks();
+// bookShelf.addBook("Новая книга");
+
+// console.log(bookShelf.books)
+
+// const bookShelf = {
+//   books: ["The Last Kingdom"],
+//   getBooks() {
+//     console.log('allo', this);
+//   },
+// };
+
+// // Перед точкой стоит объект bookShelf,
+// // поэтому при вызове метода, this будет хранить ссылку на него.
+// bookShelf.getBooks(); // {books: ['The Last Kingdom'], getBooks: f}
+
+
+const book = {
+  title: "The Last Kingdom",
+  author: "Bernard Cornwell",
+  genres: ["historical prose", "adventure"],
+  rating: 8.38,
+};
+
+for (const key in book) {
+  // Ключ
+  console.log(key);
+  // Значение свойства с таким ключом
+  console.log(book.author[key]);
+}
