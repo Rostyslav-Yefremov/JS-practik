@@ -32,7 +32,7 @@
 
 // console.log("2.1", result)
 
-// result = arr.sort((a, z) => ((a.surname + " " + a.name).localeCompare((z.surname + " " + z.name)))) 
+// result = arr.sort((a, z) => ((a.surname + " " + a.name).localeCompare((z.surname + " " + z.name))))
 
 // console.log("3", result)
 
@@ -43,9 +43,9 @@
 // result = arr.map((obj) => {
 //     obj.age = obj.dead - obj.born;
 //     return obj;
-    
+
 // }).sort((min, max) => min.age - max.age)
-    
+
 // console.log("4.1", result)
 
 // let result = arr.filter(
@@ -84,7 +84,6 @@
 // result = arr.every(({ dead }) => dead >= 1800 && dead < 1900);
 // console.log('12', result);
 
-
 // const oldClients = ["Mango", "Ajax", "Poly", "Kiwi"];
 // const newClients = ["Monkong", "Singu"];
 
@@ -118,7 +117,6 @@
 
 // console.log('Сумма всех чётных', total)
 
-
 // const keys = [3, 6, 4, 8, 78, 34];
 // const key = 65;
 
@@ -126,14 +124,9 @@
 
 // console.log(message)
 
-
-
-
-
 // console.log('После вызова')
 
 // const password = "jqueryismyjam";
-
 
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = "jqueryismyjam";
@@ -141,18 +134,16 @@
 
 //   if (password === ADMIN_PASSWORD) {
 //     return console.log("Welcome!");
-//   } 
+//   }
 //   return console.log("Access denied, wrong password!");
 //   // Change code above this line
 // }
 
 // checkPassword(password)
 
-
 // const fruits = ["apple", "peach", "pear", "banana"];
 
 // console.log(fruits[1])
-
 
 // function getExtremeElements(array) {
 //   let last = [array[0], array[array.length - 1]];// Change code below this line
@@ -171,15 +162,10 @@
 
 // getExtremeElements(array)
 
-
 // function calculateEngravingPrice(message, pricePerWord) {
 //   let calc = message.split(' ') * pricePerWord;
 //   return console.log(calc);
 // }
-
-
-
-
 
 // const calculateEngravingPrice = function(message, pricePerWord) {
 //     return console.log( message.split("").length * pricePerWord);
@@ -203,7 +189,6 @@
 
 // console.log(calculateEngravingPrice("Donec orci lectus aliquam est", 20)); // 100
 
-
 // const superCars = ['bmw', 'audi', 'mers', 'volvo']
 
 // for (const car of superCars) {
@@ -214,23 +199,20 @@
 // console.log(`Ну такое - ${car}`)
 // }
 
-
 // function calculateEngravingPrice(message, pricePerWord) {
 //    // Change code below this line
 
 // const totalPrice = message.split(' ').length * pricePerWord;
-  
+
 //   return console.log(totalPrice);
 
 //    // Change code above this line
 // }
 
-
-// calculateEngravingPrice("JavaScript is in my blood", 10) 
-// calculateEngravingPrice("JavaScript is in my blood", 20) 
-// calculateEngravingPrice("Web-development is creative work", 40) 
-// calculateEngravingPrice("Web-development is creative work", 20) 
-
+// calculateEngravingPrice("JavaScript is in my blood", 10)
+// calculateEngravingPrice("JavaScript is in my blood", 20)
+// calculateEngravingPrice("Web-development is creative work", 40)
+// calculateEngravingPrice("Web-development is creative work", 20)
 
 // const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
@@ -241,15 +223,12 @@
 
 // console.log(fruits)
 
-
 // const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
 // const newClients = ['Peach', 'Houston'];
 
 // const allClients = oldClients.concat(newClients); // Change this line
 
 // console.log(oldClients)
-
-
 
 // function makeArray(firstArray, secondArray, maxLength) {
 //     // Change code below this line
@@ -261,11 +240,8 @@
 //   return console.log('Условие фолс', newArray);
 //     // Change code above this line
 // }
-  
 
 // makeArray(["Earth", "Jupiter", "Rock"], ["Neptune", "Uranus"], 3)
-
-
 
 // function findLongestWord(string) {
 //   // Change code below this line
@@ -275,14 +251,13 @@
 //   let bigWord = '';
 //   for(let i = 0; i < words.length; i += 1) {
 //     if(words[i].length > bigWord.length){
-//      bigWord = words[i]; 
+//      bigWord = words[i];
 //     }
 //   }
 // return console.log(bigWord, bigWord.length);
 // }
 
 // findLongestWord('Google do a dodikkk barrel roll')
-
 
 // function findLongestWord(string) {
 //   // Change code below this line
@@ -297,7 +272,6 @@
 // }
 // findLongestWord("The quick brown fox jumped over the lazy dog");
 
-
 // function findLongestWord(str) {
 //   var strSplit = str.split(' ');
 //   var longestWord = 0;
@@ -311,20 +285,18 @@
 // findLongestWord("The quick brown fox jumped over the lazy dog");
 
 // function findLongestWord(string) {
-  
+
 //   const words = string.split(' ');
 //   let bigWord = '';
 //   for(let i = 0; i < words.length; i += 1) {
 //     if(words[i].length > bigWord.length){
-//      bigWord = words[i]; 
+//      bigWord = words[i];
 //     }
 //   }
 // return console.log(bigWord, bigWord.length);
 // }
 
 // findLongestWord('rty Google do a dodfffkk barrel roll')
-
-
 
 // const fruits = ['apple', 'banana', 'orange'];
 // const meat = ['poultry', 'beef', 'fish'];
@@ -352,7 +324,6 @@
 //   // Change code above this line
 // }
 
-
 // filterArray([12, 24, 8, 41, 76], 20)
 
 // // 24 task
@@ -362,7 +333,6 @@
 
 //   return fruits.includes(fruit); // Change this line
 // }
-
 
 // 25 task
 
@@ -400,7 +370,6 @@
 //   return console.log(total);
 // }
 
-
 // calculateTotalPrice([164, 48, 291])
 
 // 27 task
@@ -419,7 +388,6 @@
 //   // Change code above this line
 // }
 
-
 // 29 task
 
 // function getEvenNumbers(start, end) {
@@ -434,7 +402,6 @@
 
 //   }
 // getEvenNumbers(4, 13)
-
 
 // 30 task
 
@@ -474,7 +441,6 @@
 //   // Change code above this line
 // }
 
-
 // const sumNumbers = function (x, y, ...arr) {
 //   // console.log(x, y);
 //   console.log(arr);
@@ -510,7 +476,6 @@
 // user.hobbies.push('Haha')
 // console.log(user.hobbies)
 
-
 // Привет Дорогие и Любимые. Ловите еще интересную задачку для практики Обработать массив,
 // const arr = [“BEST”, “the”, “foo”, “is”,  “JS” ]  развернуть массив,
 // вырезать foo, перевести его в строку разделенную пробелами.
@@ -524,7 +489,7 @@
 //   console.log(ar)
 // arr.reverse().join('--');
 //   console.log(ar)
-  
+
 // }
 // console.log(newArrayString);
 // // console.log(arr.join('--'));
@@ -545,9 +510,7 @@
 // const str = arr.join(" ")
 // console.log(str);
 
-
 // console.log('5' + - + - - + - -  + + - + - + - + - - - '2');
-
 
 // function multiply(a, b){
 //   return  a * b;
@@ -585,17 +548,101 @@
 // // поэтому при вызове метода, this будет хранить ссылку на него.
 // bookShelf.getBooks(); // {books: ['The Last Kingdom'], getBooks: f}
 
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
 
-const book = {
-  title: "The Last Kingdom",
-  author: "Bernard Cornwell",
-  genres: ["historical prose", "adventure"],
-  rating: 8.38,
-};
+// for (const key in book) {
+//   // Ключ
+//   console.log(key);
+//   // Значение свойства с таким ключом
+//   console.log(book.author[key]);
+// }
 
-for (const key in book) {
-  // Ключ
-  console.log(key);
-  // Значение свойства с таким ключом
-  console.log(book.author[key]);
-}
+// const getMessage = function (word, callback) {
+//   console.log(`Отправляет сообщение ${}`)
+// };
+
+// // Колбэк-функция
+// function greet(name) {
+//   console.log(`Добро пожаловать ${name}.`);
+// }
+
+// // Функция высшего порядка
+// function registerGuest(name, callback) {
+//   console.log(`Регистрируем гостя ${name}.`);
+//   callback(name);
+// }
+
+// registerGuest('Манго', greet);
+
+// function registerGuest(name, callback) {
+//   console.log(`Регистрируем гостя ${name}.`);
+//   callback(name);
+// }
+
+// // Передаём инлайн функцию greet как колбэк
+// registerGuest('Манго Толь', function greet(name) {
+//   console.log(`Добро пожаловать ${name}.`);
+// });
+
+// // Передаём инлайн функцию notify как колбэк
+// registerGuest('Поли', function notify(name) {
+//   console.log(
+//     `Уважаемый(ая) ${name}, ваш номер будет готов через 30 минут.`,
+//   );
+// });
+
+// const numbers = [5, 10, 15, 20, 25];
+
+// // Классический for
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(
+//     `Индекс ${i}, значение ${numbers[i]}`,
+//   );
+// }
+
+// // Перебирающий forEach
+// numbers.forEach(function (number, index) {
+//   console.log(
+//     `Индекс ${index}, значение ${number}`,
+//   );
+// });
+
+// const numbers = [5, 10, 15, 20, 25];
+
+// // Объявление функции
+// // numbers.forEach(function (number, index) {
+// //   console.log(
+// //     `Индекс ${index}, значение ${number}`,
+// //   );
+// // });
+
+// // Анонимная стрелочная функция
+// numbers.forEach((number, index) => {
+//   console.log(
+//     `Индекс ${index}, значение ${number}`,
+//   );
+// });
+
+// let age = prompt('Сколько Вам лет?', 18);
+
+// let welcome =
+//   age < 18
+//     ? () =>
+//         prompt(
+//           'И что ты тут забыл, малыш?',
+//           'Я уже умею',
+//         )
+//     : () => alert('Здравствуйте!');
+
+// welcome(); // теперь всё в порядке
+
+// let ask = confirm('Вы согласны?');
+// let answer = ask
+//   ? () => alert('Вы согласились.')
+//   : () => alert('Вы отменили выполнение.');
+// answer();
